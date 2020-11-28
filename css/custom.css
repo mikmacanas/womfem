@@ -1,0 +1,52 @@
+.header {
+    background: rgb(0, 178, 255);
+    color: #fff;
+}
+
+#lblCartCount {
+    font-size: 12px;
+    background: #6e5d3b;
+    color: #fff;
+    padding: 0 5px 3px;
+    vertical-align: top;
+    margin-left: -10px;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+code{
+    color: #a18753;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+.item-counter {
+    width: 130px;
+    margin-left: auto;
+    order: 2;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #7b7c7d;
+    border-color: #676869;
+}

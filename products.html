@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WOMFEM</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!--  Font-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"  />
+
+</head>
+
+<body>
+
+<h1 class="site-heading text-center text-white d-none d-lg-block">
+  <span class="site-heading-upper text-primary mb-3">WOMFEM</span>
+  <span class="site-heading-lower">Handbags for Women</span>
+</h1>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Korean Food</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+        </li>
+        <li class="nav-item active px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+        </li>
+        <li class="nav-item px-lg-4">
+          <a class="nav-link text-uppercase text-expanded" href="cart.html">
+            <i class="fas fa-shopping-cart" style="font-size:24px"></i>
+            <span class='badge badge-warning' id='lblCartCount'> 0 </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex ml-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Saint Lauren Fringe Rucksack </span>
+            <span class="section-heading-lower">Backpack Bag</span>
+            <code>₱57,849.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Saint Lauren Fringe Rucksack');animateAdd(this);">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/1.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex mr-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Chanel Pink Leather</span>
+            <span class="section-heading-lower">Mini Backpack / Urban Spirit Quilted Lambskin</span>
+            <code>₱4,599.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Chanel Pink Leather');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/2.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex ml-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Givenchy Black Gold Strap</span>
+            <span class="section-heading-lower">Leather Crossbody Bag </span>
+            <code>₱44,237.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Givenchy Black Gold Strap');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/3.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex mr-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Gucci White</span>
+            <span class="section-heading-lower">Ophidia Tote</span>
+            <code>₱101,113.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Gucci White / Ophidia Tote');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/4.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex ml-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Prada Calf Leather Handbag </span>
+            <span class="section-heading-lower">Clay Grey and Black</span>
+            <code>₱135,305.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Prada Calf Leather Handbag');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/5.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex mr-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Gucci Beige Small</span>
+            <span class="section-heading-lower">GG Ophidia Bag </span>
+            <code>₱80,118.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Gucci Beige Small');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/6.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex ml-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Coach Dalton Tote Bag</span>
+            <span class="section-heading-lower">Leather One Size</span>
+            <code>₱28,900.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Coach Dalton Tote Bag');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/7.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex mr-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Chanel Sky Blue</span>
+            <span class="section-heading-lower">Quilted Lambskin Vintage/ Mini Flap Bag </span>
+            <code>₱2,699.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Chanel Sky Blue');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/8.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex ml-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Prada Black Saffiano Leather</span>
+            <span class="section-heading-lower">Small Galleria Tote Bag</span>
+            <code>₱117,394.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Prada Black Saffiano Leather');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/9.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex mr-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Givenchy Antigona </span>
+            <span class="section-heading-lower">Beige Sheepskin Handbag </span>
+            <code>₱69,419.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Givenchy Antigona');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/10.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex ml-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Coach Calf Leather </span>
+            <span class="section-heading-lower">Dalton Handbag</span>
+            <code>₱25,027.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Coach Calf Leather');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/11.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex">
+        <div class="bg-faded p-5 d-flex mr-auto rounded">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-upper">Gucci White </span>
+            <span class="section-heading-lower">Mini Sylvie Bag  </span>
+            <code>₱107,470.00</code>
+            <br/>
+            <button class="btn btn-primary" onclick="addToCart('Gucci White / Mini Sylvie Bag');animateAdd(this)">Add To Cart!</button>
+          </h2>
+        </div>
+      </div>
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/12.png" alt="" style="width: 900px;">
+    </div>
+  </div>
+</section>
+
+<footer class="footer text-faded text-center py-5">
+  <div class="container">
+    <p class="m-0 small">Copyright &copy; System Analysis Design 2020</p>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="custom.js"></script>
+
+</body>
+
+</html>
